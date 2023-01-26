@@ -37,8 +37,17 @@ So I'm using a web domain bought from OVH and I want to update this IP everytime
   - Script download and configuration
     - Download the git file "updateIP.bat"
     - Open with an editor and replace :
-      - YourDomainName by the web domain you create in DynHost
-      - YourLogin by the ID you create to manage DynHost
+      - YourDomain by the web domain you create in DynHost
+      - YourID by the ID you create to manage DynHost
       - YourPassword by the one create with the ID to manage DynHost
-      - 
-  
+    - Save the file
+  - Add script to windows start start
+    - Create a shortcut of this file
+    - Win+R and type "shell:startup" and press Enter
+    - It open a folder, drop the shortcut in
+    - File and exe in this folder are execute at windows start
+
+Now you can enjoy the automatic IP update when windows start !
+
+# Credit
+tainalo2 - 01/2023 - streaming tools creator : www.purpletwit.com
